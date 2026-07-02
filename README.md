@@ -10,7 +10,6 @@ Montrer, sur un seul projet Next.js + MUI, un cycle de développement complet pi
 **Ce dossier ne contient volontairement aucun code d'application** — seulement les cahiers des charges/skills et le ticket Jira. Tout le code est généré en direct pendant la démo.
 
 ## Fichiers de configuration
-- `BRIEF.md` — résumé du projet, pour vous (le présentateur).
 - `jira/JIRA-102.md` — le ticket à utiliser pour la phase 2.
 - `CLAUDE.md` / `AGENTS.md` / `.github/copilot-instructions.md` — instructions permanentes du projet.
 - 4 skills, configurés à l'identique pour les 3 outils (`build-expense-tracker`, `implement-jira-ticket`, `write-tests`, `setup-ci`), déclinés en :
@@ -50,5 +49,3 @@ Déclenche `setup-ci`. Vérifier le contenu de `.github/workflows/ci.yml` géné
 - Phase 2 : le ticket est-il traduit fidèlement, sans fonctionnalité inventée en plus ?
 - Phase 3 : les tests couvrent-ils vraiment la logique métier (régie/forfait), ou juste des détails superficiels ?
 - Phase 4 : le pipeline généré est-il correct et complet (lint + tests + build) ?
-
-Astuce : dupliquez ce dossier en 3 copies (une par outil) avant de commencer, pour comparer les 3 résultats côte à côte à la fin sans rien écraser.
